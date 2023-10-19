@@ -1,0 +1,18 @@
+#Funcion para bebidas calientes
+def evaluar_bebida_caliente (temperatura, hora) :
+  if temperatura<= 50:
+    print( "Debe esperar a que se caliente la bebida")
+  if temperatura == 50 and 70:
+    print("Se puede servir de inmediato")
+  if temperatura>=70:
+    print("Bebida muy caliente, debe esperar a que se enfrie")
+
+  if hora == 6 and 11:
+    print( "las bebidas calientes se sirven más rapido")
+  else:
+    print("Espera el turno")
+
+  resultado = evaluar_bebida_caliente(temperatura, hora,)
+  
+  print(resultado)
+
